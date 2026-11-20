@@ -7,16 +7,16 @@
 | Campo | Resposta |
 |---|---|
 | **Nome da CitizenTech** | Deslocai |
-| **Cidade e bairro** | _[preencher: ex. São Paulo – região central]_ |
+| **Cidade e bairro** | _São Paulo_ |
 | **Cidadão beneficiado** | Trabalhadores diários, estudantes, idosos e pessoas com deficiência (PCD) que dependem de metrô, trem e ônibus em horários de pico |
 | **Problema, em uma frase** | Passageiros do transporte público sofrem diariamente com superlotação imprevisível, calor extremo nos vagões/pontos e falta de avisos em tempo real sobre elevadores e escadas rolantes quebrados |
 | **Como funciona** | Sensores ESP32 nas estações enviam temperatura, umidade e contagem de pessoas para esta API. A API aplica regras de negócio, gera alertas (superlotação, calor, equipamento parado) e expõe tudo para o aplicativo mobile e para os painéis |
 | **O que cada parte faz** | **Backend C# (este repositório):** API REST, regras de alerta, banco e indicadores. _[grupo: completar com Mobile, Physical Computing, IA/ML, Cybersecurity, SOA, Operating Systems e Testing]_ |
-| **Link do repositório** | _[preencher]_ |
+| **Link do repositório** | _https://github.com/gabriel-mazza/GS-CSHARP.git_ |
 | **Indicador de impacto** | Redução do tempo de espera em estações superlotadas (min) e redução de viagens perdidas por PCD/idosos por elevadores inoperantes |
 | **ODS conectados** | **ODS 9** (modernização da infraestrutura de transporte com IoT e dados), **ODS 10** (mobilidade digna para PCD, idosos e trabalhadores periféricos), **ODS 11** (transporte coletivo mais seguro, previsível e eficiente) |
 
-**Integrantes:** _[preencher com os nomes]_
+**Integrantes:** _[Gabriel Barros Mazzariol - RM 555410, Jefferson Junior Alvarez Urbina - RM 558497]_
 
 ---
 
@@ -36,7 +36,7 @@
 Pré-requisito: [.NET SDK 8 ou superior](https://dotnet.microsoft.com/download).
 
 ```powershell
-git clone <link-do-repositorio>
+git clone <https://github.com/gabriel-mazza/GS-CSHARP.git>
 cd Deslocai
 dotnet restore
 dotnet run --project src/Deslocai.Api
@@ -121,4 +121,4 @@ Todos os dados são **simulados**. O sistema não coleta dados pessoais: relatos
 
 ## Evidências da aplicação
 
-Prints em [`docs/evidencias`](docs/evidencias) _[adicionar após rodar]_.
+Prints em [`docs/evidencias`](docs/evidencias)
